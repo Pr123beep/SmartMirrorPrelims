@@ -7,6 +7,7 @@ import threading
 import queue
 import random
 
+#initializations hai yahan saari 
 detector = FER(mtcnn=True)
 engine = pyttsx3.init()
 speech_queue = queue.Queue() #lag due to tts avoid krne ke liye hai yeh
@@ -98,7 +99,7 @@ def main():
                     speech_queue.put(compliment)
                     last_time = current_time
                     last_compliment = compliment
-
+            #camera rectangle
             cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
         else:
             cv2.putText(frame, "No face detected.", (20, 30),
