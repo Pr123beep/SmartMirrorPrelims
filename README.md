@@ -81,7 +81,7 @@ The **Smart Mirror: Personalized Compliment Generator** is an interactive applic
 
 1. **Run the Application**
    ```bash
-   python smart_mirror.py
+   python mirror.py
    ```
 
 2. **Interact with the Smart Mirror**
